@@ -1,0 +1,2 @@
+# finetuning-textpairclassification
+Pytorch-lightningを使って、テキストペア分類のファインチューニングをする。
