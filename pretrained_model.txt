@@ -1,0 +1,5 @@
+BERT    :   cl-tohoku/bert-base-japanese-whole-word-masking
+RoBERTa :   rinna/japanese-roberta-base
+ELECTRA :   izumi-lab/electra-base-japanese-discriminator
+LUKE    :   studio-ousia/luke-japanese-base-lite
+DeBERTa :   ku-nlp/deberta-v2-base-japanese
