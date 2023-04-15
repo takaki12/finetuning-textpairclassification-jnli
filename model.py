@@ -49,7 +49,7 @@ class ModelForSequenceClassification_pl(pl.LightningModule):
         num_correct = ( labels_predicted == labels ).sum().item()
         accuracy = num_correct/labels.size(0)
         self.log('accuracy', accuracy)
-    
+
     # オプティマイザ
     def configure_optimizers(self):
         return torch.optim.Adam(self.parameters(), lr=self.hparams.lr)
